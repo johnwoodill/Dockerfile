@@ -7,5 +7,15 @@ local({
 install.packages(c("tidyverse",
                    "stringr",
                    "zoo", 
-                   "lfe"))
+                   "lfe",
+                   "ggthemes",
+                   "RcppRoll",
+                   "rms",
+                   "noncensus",
+                   "maps",
+                   "foreign",
+                   "cowplot",
+                   "systemfit",
+                   "doParallel",
+                   "boot"))
 
