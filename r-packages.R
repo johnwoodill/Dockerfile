@@ -6,7 +6,7 @@ local({
 
 install.packages(c("tidyverse",
                    "stringr",
-                   "zoo", 
+                   "zoo",
                    "lfe",
                    "ggthemes",
                    "RcppRoll",
