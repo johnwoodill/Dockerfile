@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-sudo -s
+#sudo -s
 
 #adduser john
 # Set password for john `passwd john`
@@ -27,7 +27,7 @@ yum install rstudio-server-rhel-1.1.442-x86_64.rpm
 sudo systemctl status rstudio-server.service
 sudo systemctl enable rstudio-server.service
 
-
+Rscript r-packages.R
 
 # Dropbox: https://github.com/andreafabrizi/Dropbox-Uploader
 
