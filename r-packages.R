@@ -17,5 +17,7 @@ install.packages(c("tidyverse",
                    "cowplot",
                    "systemfit",
                    "doParallel",
-                   "boot"))
+                   "boot", 
+                   "sandwich",
+                   "lmtest"))
 
